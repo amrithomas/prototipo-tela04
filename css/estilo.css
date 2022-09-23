@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    width: 400px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.retangulo {
+    width: 400px;
+    height: 4px;
+    background-color: #2393F7;
+    position: absolute;
+}
+
+.retangulo2 {
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    top: 40px;
+    left: 356px;
+}
+
+.retangulo3 {
+    width: 16px;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    top: 50px;
+    left: 360px;
+}
+
+.retangulo4 {
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    top: 60px;
+    left: 356px;
+}
+
+h1 {
+    width: 164px;
+    height: 28px;
+
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', 'sans-serif';
+    color: black;
+
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+h2 {
+    width: 145px;
+    height: 28px;
+
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', 'sans-serif';
+    color: #374047;
+
+    position: relative;
+    top: 90px;
+    left: 34px;
+}
+
+.esconder {
+    width: 26px;
+    height: 25px;
+
+    position: relative;
+    top: 63px;
+    left: 341px;
+    filter: opacity(0.5);
+}
+
+.quadrado {
+    width: 60px;
+    height: 60px;   
+    border-radius: 20px;
+    background-color: #2393F7;
+    margin-left: 26px;
+    margin-top: 112px;
+}
+
+.img_cartao{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    bottom: 17px;
+    right: 315.55px;
+}
+
+.text_cartao {
+    font-size: 14px;
+    font-family: 'Roboto','sans-serif';
+    font-weight: medium;
+    color: #67737E;
+    position: relative;
+    top: 6px;
+    left: 35px;
+}
+
+
+.text_boleto {
+    font-size: 14px;
+    font-family: 'Roboto','sans-serif';
+    font-weight: medium;
+    color: #67737E;
+    position: relative;
+    bottom: 34.8px;
+    left: 127px;
+}
+
+.img_boleto{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    bottom: 58px;
+    left: 134px;
+}
+
+
+.text_transferir {
+    font-size: 14px;
+    font-family: 'Roboto','sans-serif';
+    font-weight: medium;
+    color: #67737E;
+    position: relative;
+    top: -75.8px;
+    left: 208px;
+}
+
+.img_transferir{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    bottom: 98px;
+    left: 224px;
+}
+
+.text_gastos {
+    font-size: 14px;
+    font-family: 'Roboto','sans-serif';
+    font-weight: medium;
+    color: #67737E;
+    position: relative;
+    top: -117px;
+    left: 305px;
+}
+
+.img_gastos{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    bottom: 139px;
+    left: 315px;
+    filter:saturate()
+}
+
+
+#transacoes {
+    font-size: 12px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight:600;
+    color: #8F99A3;
+    text-transform: uppercase;
+    position: relative;
+    left: 34px;
+    bottom: 75px;
+}
+
+
+.historico {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    left: 42px;
+    bottom: 60px;
+}
+
+.quadrado__operacao {
+    width: 9px;
+    height: 9px;
+    background-color: #b3b3b3;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -14px;
+}
+
+.quadrado__operacao--mais {
+    background-color: #C3FF63;
+}
+
+.preco {
+    font-size: 15px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    color: #394048;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.descricao {
+    font-size: 12px;
+    font-family: 'Robot', 'sans-serif';
+    color: #67747D;
+}
+
+.datas {
+    position: relative;
+    left: 329px;
+    bottom: 417px;
+    
+}
+
+.data {
+    font-size: 16px;
+    font-family: 'Roboto', 'sans-serif';
+    color: #67747D;
+    width: 44px;
+    height: 14px;
+    padding-bottom: 5px;
+    margin-top: 13.2px;
+}
+
+.hora {
+    font-size: 12px;
+    font-family: 'Roboto', 'sans-serif';
+    color: #67747D;
+    width: 38px;
+    height: 19px;
+    margin-left: 12px;
+}
